@@ -8,8 +8,3 @@ function handleUpdate(){
 
 controls.forEach(control => control.addEventListener("change", handleUpdate));
 controls.forEach(control => control.addEventListener("mousemove", handleUpdate));
-// controls.foreach(function(control){
-//   control.addEventListener("onchange", function(evt){
-//     // evt.target.style.
-//   })
-// })
