@@ -3,17 +3,36 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Learning CSS</title>
+  <title>Changing CSS values with Js</title>
   <meta name="author" content="Kasra">
-  <meta name="description" content="">
+  <meta name="description" content="Changing CSS variables with Js">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" type="text/css" href="./styles/main.css" >
 </head>
 
 <body>
+  <div class="container">
+    <header>
+      <h1>Update CSS variables with <span class="hl">JS</span></h1>
 
 
+      <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input name="spacing" type="range" min="10" max="200" value="10" data-sizing="px">
+
+        <label for="blur">Blur:</label>
+        <input name="blur" type="range" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="base">Base color:</label>
+        <input name="base" type="color" value="#f456fe">
+
+      </div>
+    </header>
+
+
+    <img src="./images/perugia.jpg">
+  </div>
   <script type="text/javascript" charset="utf-8" src="./js/custom.js"></script>
 </body>
 </html>
